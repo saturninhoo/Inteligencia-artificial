@@ -4,21 +4,17 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
-const perguntas = [
-    {
+const perguntas = {
         enunciado: "Você acha agricultura importante para a economia?"
-        alternativas: [
-            {
+        alternativas:{
                 texto: "sim",
                 afirmacao: "a agricultura é importante para a economia por ser uma dos principais formas de sustentaçãodo país com sua exportação de soja e outros plantios"
             },
             {
                 texto: "não",
                 afirmacao: "com a mudança climatica sendo muito forte pode acontecer de se perder todo cultivo e com isso perder os inventimentos na lavoura"
-
-            ]
-
-},
+            }
+        },
 
 let atual = 0;
 let perguntaAtual;
