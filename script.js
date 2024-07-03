@@ -79,4 +79,4 @@ function mostraAlternativas(){
             textoResultado.textContent = historiaFinal;
             caixaAlternativas.textContent = "";
         }
-    }
+}
